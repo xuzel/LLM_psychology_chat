@@ -94,7 +94,7 @@ Our system will also include a series of customized mental health assessment too
    - We intend to use OpenAI's ChatGPT API as the underlying model for dialogues. Below is the official price list for the API:
 
      | Model                     | Input Cost          | Output Cost         |
-     | ------------------------- | ------------------- | ------------------- |
+     |---------------------------|---------------------|---------------------|
      | gpt-3.5-turbo-1106        | $0.0010 / 1K tokens | $0.0020 / 1K tokens |
      | gpt-3.5-turbo-instruct    | $0.0015 / 1K tokens | $0.0020 / 1K tokens |
      | gpt-4-0125-preview        | $0.01 / 1K tokens   | $0.03 / 1K tokens   |
