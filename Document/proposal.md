@@ -112,7 +112,7 @@ As for our project, we plan to call a ChatGPT API while hiring prompt tuning and
      | gpt-4-1106-preview        | $0.01 / 1K tokens   | $0.03 / 1K tokens   |
      | gpt-4-1106-vision-preview | $0.01 / 1K tokens   | $0.03 / 1K tokens   |
 
-   - During the testing phase, we plan to use `gpt-3.5-turbo-1106`. Based on our estimates, the cost per conversation round is about $0.05. During the development process, we do not expect to use more than $5 worth of API services.
+   - During the testing phase, we plan to use `gpt-3.5-turbo-1106`. Based on our estimates, the cost per conversation round is about \$0.05. During the development process, we do not expect to use more than \$5 worth of API services.
 
 # 8. Schedule
 
