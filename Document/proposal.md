@@ -4,9 +4,11 @@
 
 # 1. Project topic
 
-**topic：**心灵智医（SoulBridge Chat）
+**Topic: Soul-Bridge Chat**
 
-我们目标开发一个基于对话的心理诊断和评估系统，旨在通过用户与LLM的交互来识别用户的人格特征和潜在的心理健康问题。此外，该系统将利用对话来为用户提供初步的心理支持和压力缓解。
+Our goal is to develop a dialogue-based psychological diagnosis and assessment system, which aims to identify users' personality traits and potential mental health issues through interaction with a Large Language Model (LLM). By analyzing the content, linguistic expressions, and response patterns in users' conversations, the system will be able to infer their emotional states, levels of psychological stress, and potential mental health risks. Additionally, the system will utilize these dialogues to provide users with preliminary psychological support and stress relief, helping them better understand and manage their emotions and mental health.
+
+Our system will also include a series of customized mental health assessment tools and self-help strategies, designed to provide personalized mental health analysis and intervention suggestions. Users can access these tools through their daily conversations, making mental health assessments more seamless and natural. The design of our system focuses on protecting user privacy and data security, ensuring that all personal information is properly handled and encrypted.
 
 # 2. Team members
 
@@ -32,68 +34,73 @@
 
 # 5. Functional Requirements
 
-1. **用户交互界面**：
-   - 平台需要保证多种输入方式包括打字输入以及语音输入
-   - 易于导航和使用的系统布局。
-     - 交互式的聊天界面，包括输入文字以及显示聊天
-     - 能够导入历史聊天记录
-     - 能够以pdf或者markdown的形式下载报告
-     - 能够轻易的更换模型以及聊天
-2. **心理健康评估**：
-   - 包含预设的心理评估问卷（如焦虑、抑郁自评量表等）。
-   - 通过对话分析用户的心理状况以及用户的性格。
-   - 生成个性化的心理健康报告。
-   - 根据用户的心理状况提供自助改善建议。
-   - 提供紧急情况下的联系资源和建议。
-3. **多语言支持**：
-   - 支持多种语言，以满足不同用户的需求。
+1. **User Interaction Interface**:
+   
+   - **Multiple Input Methods**: The platform should support various input methods, including keyboard typing and voice input, to cater to different user preferences.
+   
+   - System Layout
+   
+     : The interface should be easy to navigate and user-friendly, providing an intuitive user experience.
+   
+     - **Interactive Chat Interface**: Including the ability to input text and display chat conversations.
+     - **Importing Chat History**: Users should be able to import historical chat data for reference and review.
+     - **Report Downloading**: Feature to download chat history in PDF or Markdown format.
+     - **Switching Models and Chats**: Users should be able to easily switch between different chat models.
+2. **Mental Health Assessment**:
+
+   - **Pre-set Assessment Questionnaires**: Including various mental health assessment tools, such as anxiety and depression self-assessment scales.
+   - **Dialogue Analysis**: Analyzing the user's psychological state and personality traits through conversations.
+   - **Personalized Reports**: Generating personalized mental health reports for users.
+   - **Self-Improvement Suggestions**: Providing self-help improvement methods and suggestions based on the user's mental state.
+   - **Emergency Contact Resources**: Offering contact resources and advice in emergency situations.
+
+3. **Multilingual Support**:
+
+   - Supporting multiple languages to meet the needs of users speaking different languages.
 
 # 6. Non-Functional Requirements
 
-1. **性能要求**：
-   - 快速响应用户输入，服务器能够主动发送消息给客户端
-   - 保证在同一时间5个人使用系统
-2. **可扩展性和维护性**：
-   - 系统架构易于扩展和维护。
-   - 支持未来的升级和功能添加。
-3. **安全性**：
-   - 加密用户的聊天，保证用户的隐私。
-4. **兼容性**：
-   - 在多种设备（如手机、平板、电脑）上均能良好运行。
-   - 兼容主流操作系统和浏览器。
-5. **用户身份与隐私保护**：
-   - 通过匿名聊天保证用户的隐私
-   - 用户可以下载当前聊天以便下次上传继续当前聊天。聊天记录不上云，保证用户隐私。
-6. **用户体验**：
-   - 确保界面直观、响应迅速。
-   - 提供清晰的错误消息和帮助指导。
-7. **法律和伦理遵从性**：
-   - 遵守相关心理健康法规和伦理标准。
-   - 明确用户协议和隐私政策。
-8. **可靠性和灾难恢复**：
-   - 系统具备高可靠性，确保数据不易丢失。
-   - 实现数据备份和灾难恢复机制。
+1. **Performance Requirements**:
+   - **Fast Response**: The system needs to respond quickly to user inputs and be able to actively send messages from the server to the client.
+   - **Multi-user Support**: Ensure stability and performance when at least 5 people are using the system simultaneously.
+2. **Scalability and Maintainability**:
+   - **Easy to Expand and Maintain**: The system architecture should be designed with future scalability and maintainability in mind.
+   - **Interface for Future Upgrades**: Reserve interfaces for future upgrades and feature additions.
+3. **Security**:
+   - **Data Encryption**: Encrypt user chats and inputs to protect user privacy.
+4. **Compatibility**:
+   - **Cross-platform Compatibility**: Should work well on various devices (such as mobile phones, tablets, computers).
+   - **OS and Browser Compatibility**: Compatible with mainstream operating systems and browsers like Google Chrome.
+5. **User Identity and Privacy Protection**:
+   - **Anonymous Chat**: Provide anonymous chatting to protect user privacy.
+   - **Chat Record Download**: Allow users to download chat records for continuing conversations later without cloud storage to ensure privacy.
+6. **User Experience**:
+   - **Interface and Responsiveness**: Ensure the interface is intuitive and responsive.
+   - **Clear Error Messages and Guidance**: Provide clear error messages and helpful guidance.
+7. **Legal and Ethical Compliance**:
+   - **Compliance with Regulations and Ethics**: Comply with relevant mental health regulations and ethical standards.
+   - **User Agreement and Privacy Policy**: Clearly define the user agreement and privacy policy.
+8. **Reliability and Disaster Recovery**:
+   - **High Reliability**: Ensure high system reliability to prevent data loss.
+   - **Backup and Disaster Recovery**: Implement data backup and disaster recovery mechanisms.
 
 # 7. Budget
 
-1. **服务器费用**：
-   我们预计租用亚马逊的云服务器来运行我们的服务，并购购买二级域名来完成这个服务
-   因为这部分费用只在项目上线后展示的时间段需要，因此价格如下：
+1. **Server Costs**:
+   - **Amazon Web Services (AWS) Server Costs**: We plan to rent an AWS cloud server for our service. According to AWS's pricing policy, the server usage is free for the first three months.
+   - **Secondary Domain Name Cost**: We also plan to purchase a secondary domain name for the service. The cost for a month's secondary domain is approximately 20 RMB.
 
-   - 亚马逊服务器前三个月免费，因此整个过程免费
-   - 二级域名一个月（20rmb）
+2. **OpenAI Token**:
+   - We intend to use OpenAI's ChatGPT API as the underlying model for dialogues. Below is the official price list for the API:
 
-2. **OpenAI token**：
-   我们预计使用openai chatgpt的api作为对话的底层模型，其api官方价格如下：
+     | Model                     | Input Cost          | Output Cost         |
+     | ------------------------- | ------------------- | ------------------- |
+     | gpt-3.5-turbo-1106        | $0.0010 / 1K tokens | $0.0020 / 1K tokens |
+     | gpt-3.5-turbo-instruct    | $0.0015 / 1K tokens | $0.0020 / 1K tokens |
+     | gpt-4-0125-preview        | $0.01 / 1K tokens   | $0.03 / 1K tokens   |
+     | gpt-4-1106-preview        | $0.01 / 1K tokens   | $0.03 / 1K tokens   |
+     | gpt-4-1106-vision-preview | $0.01 / 1K tokens   | $0.03 / 1K tokens   |
 
-   | Model                     | Input               | Output              |
-   | ------------------------- | ------------------- | ------------------- |
-   | gpt-3.5-turbo-1106        | $0.0010 / 1K tokens | $0.0020 / 1K tokens |
-   | gpt-3.5-turbo-instruct    | $0.0015 / 1K tokens | $0.0020 / 1K tokens |
-   | gpt-4-0125-preview        | $0.01 / 1K tokens   | $0.03 / 1K tokens   |
-   | gpt-4-1106-preview        | $0.01 / 1K tokens   | $0.03 / 1K tokens   |
-   | gpt-4-1106-vision-preview | $0.01 / 1K tokens   | $0.03 / 1K tokens   |
-
-   我们预计测试使用`gpt-3.5-turbo-1106`，后续上线需要用户自己提供openai api key，一轮对话预计0.05刀。开发过程不会使用超过5刀
+   - During the testing phase, we plan to use `gpt-3.5-turbo-1106`. Based on our estimates, the cost per conversation round is about $0.05. During the development process, we do not expect to use more than $5 worth of API services.
 
 # 8. Schedule
