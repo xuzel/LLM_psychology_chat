@@ -18,6 +18,7 @@ Our system will also include a series of customized mental health assessment too
 | 侯歌扬 | 1210032104 |
 | 任正非 | 1210017801 |
 
+
 ## 3. Background
 
 ### 3.1 Overall Condition
@@ -25,24 +26,31 @@ From the statistics released by the national epidemiological survey conducted in
 
 However, it is widely acknowledged that both the diagnosis and the corresponding treatment of mental illness take much longer than those of physical diseases. Besides,  Chinese mainland residents may have a stronger requirement in privacy due to cultural features. Thus an application is a better choice for early diagnosis stage. There are also factors like medical resources, economic level and business needs contributing to market demand. We would talk about more detailed contents in [part-4](# 4. Motivation).
 
-
-
 ### 3.2 Domain
 The term ‘psychology’ we would like to use in this report includes contents about psychological distress, mental illness and mental health. Reason of this ambiguity is that, LLM has considerable potential in practical use rather than only theories, while real conditions being complex. And as a software being designed, we pay the most attention to its performance and benefits in real world.
 
 
-
-### 3.3 LLM in Psychology and Technical Feasibility
-
-The progress made in natural language processing and deep learning (e.g. GPT4.0 form open AI) during the past few years provides higher feasibility for deep learning based applications in the field of psychology. Following are some examples that we’ve simply investigated.  
-
-**SMILE**: Employing a functionality of multi-turn conversations, SMILE is a inclusive language expansion via ChatGPT but can only relieve users’ psychological stress.  
-
-**SoulChat**: SoulChat has released both single-turn corpus and multi-turn corpus. Its main concerns contain empathy, talk guidance and advice providing. However, it also has cons of being not able to diagnose and obtaining insufficient information from users.  
-
-As for our project, we plan to call a ChatGPT API while hiring prompt tuning and conventional tuning in our software development.
-
 ## 4. Motivation
+### 4.1 Limitations of Traditional Face-to-Face Psychotherapy
+
+- **Extended Treatment Duration**: Due to the unique nature of psychological disorders, effective psychotherapy often requires treatment durations ranging from a few weeks to several years.
+
+- **Geographical Constraints**: The therapeutic relationship between a psychologist and a patient is highly significant during psychotherapy. If a patient relocates, they may need to find a new psychologist, leading to the necessity of building trust and understanding anew, incurring a substantial time cost.
+
+- **High Treatment Costs**: According to the China Statistical Yearbook, in 2022, the average disposable income per capita in China was over 30,000 yuan, with healthcare expenditures accounting for only 8.64% of the total expenses. Considering disparities in wealth, urban resources, and the scarcity of professional psychologists in the country, the expenses allocated to psychotherapy are minimal. The scarcity of professionals and the prolonged duration of psychotherapy contribute to high costs, making it challenging for ordinary families to afford.
+
+- **Privacy Concerns for Patients**: Many individuals, fearing privacy issues and potential discrimination, lack the courage to pursue face-to-face psychotherapy. The World Health Organization reports that globally, only about 30% of individuals with mental illnesses seek treatment, despite 1 in 8 people being affected by mental health conditions.
+
+### 4.2 LLM in Psychology and Technical Feasibility
+
+Recent advancements in natural language processing and deep learning, exemplified by technologies like GPT-4.0 from OpenAI, enhance the feasibility of incorporating deep learning applications into the field of psychology. Here are a few examples that have been explored:
+
+**SMILE**: This method involves using ChatGPT to rewrite a dataset generated from Q&A obtained from public mental health websites. Researchers utilized this dataset to develop a conversation system that extends single-turn dialogues into multi-turn conversations, providing emotional support but lacking diagnostic and therapeutic advice.
+
+**SoulChat**: SoulChat has released both single-turn and multi-turn corpora, focusing on empathy, conversation guidance, and advice. However, it has limitations, such as the inability to diagnose and gathering insufficient information from users.
+
+Regarding our project, we plan to incorporate ChatGPT API with prompt tuning and conventional tuning in our software development. Our goal is to create an intelligent conversation system that contributes to user mental health diagnosis and treatment.
+
 
 ## 5. Functional Requirements
 
