@@ -1,4 +1,4 @@
-#  Soul-Bridge Chat Proposal
+#  <center>Soul-Bridge Chat Proposal</center>
 
 [toc]
 
@@ -49,8 +49,6 @@ Recent advancements in natural language processing and deep learning, exemplifie
 
 **SoulChat**: SoulChat has released both single-turn and multi-turn corpora, focusing on empathy, conversation guidance, and advice. However, it has limitations, such as the inability to diagnose and gathering insufficient information from users.
 
-As for our project, we plan to incorporate ChatGPT API with prompt tuning and conventional tuning in our software development. Our goal is to create an intelligent conversation system that contributes to user mental health diagnosis and treatment.
-
 
 ## 5. Functional Requirements
 
@@ -97,8 +95,9 @@ As for our project, we plan to incorporate ChatGPT API with prompt tuning and co
    - **Secondary Domain Name Cost**: We also plan to purchase a secondary domain name for the service. The cost for a month's secondary domain is approximately 20 RMB.
 
 2. **OpenAI Token**:
+   
    - We intend to use OpenAI's ChatGPT API as the underlying model for dialogues. Below is the official price list for the API:
-
+   
      | Model              | Input Cost          | Output Cost         |
      | ------------------ | ------------------- | ------------------- |
      | gpt-3.5-turbo-1106 | $0.0010 / 1K tokens | $0.0020 / 1K tokens |
@@ -108,9 +107,10 @@ As for our project, we plan to incorporate ChatGPT API with prompt tuning and co
 
 ## 8. Schedule
 
-| Time | Task                    |
-| ---- | ----------------------- |
-| 1.30 | finish project proposal |
-| 3.0  |                         |
-|      |                         |
+| Time     | Task                                                         |
+| -------- | ------------------------------------------------------------ |
+| 1.30     | finish project proposal                                      |
+| 2.19~3.0 | finish design document and finish UI for our chat web        |
+| 3.0~3.15 | finish development document and design the prompt for our chat system |
+| 3.15~4.0 | finish test document and continue to maintain our chat system |
 
