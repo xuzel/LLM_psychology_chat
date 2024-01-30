@@ -49,7 +49,7 @@ Recent advancements in natural language processing and deep learning, exemplifie
 
 **SoulChat**: SoulChat has released both single-turn and multi-turn corpora, focusing on empathy, conversation guidance, and advice. However, it has limitations, such as the inability to diagnose and gathering insufficient information from users.
 
-Regarding our project, we plan to incorporate ChatGPT API with prompt tuning and conventional tuning in our software development. Our goal is to create an intelligent conversation system that contributes to user mental health diagnosis and treatment.
+As for our project, we plan to incorporate ChatGPT API with prompt tuning and conventional tuning in our software development. Our goal is to create an intelligent conversation system that contributes to user mental health diagnosis and treatment.
 
 
 ## 5. Functional Requirements
