@@ -100,9 +100,9 @@ As for our project, we plan to call a ChatGPT API while hiring prompt tuning and
 
 ## 8. Schedule
 
-|      |      |
-| ---- | ---- |
-|      |      |
-|      |      |
-|      |      |
+| Time | Task                    |
+| ---- | ----------------------- |
+| 1.30 | finish project proposal |
+| 3.0  |                         |
+|      |                         |
 
