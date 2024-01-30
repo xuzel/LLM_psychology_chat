@@ -107,10 +107,10 @@ Recent advancements in natural language processing and deep learning, exemplifie
 
 ## 8. Schedule
 
-| Time     | Task                                                         |
-| -------- | ------------------------------------------------------------ |
-| 1.30     | finish project proposal                                      |
-| 2.19~3.0 | finish design document and finish UI for our chat web        |
-| 3.0~3.15 | finish development document and design the prompt for our chat system |
-| 3.15~4.0 | finish test document and continue to maintain our chat system |
+| Time           | Task                                                         |
+| -------------- | ------------------------------------------------------------ |
+| Jan 30         | finish project proposal                                      |
+| Feb 19 - Mar 1 | finish design document and finish UI for our chat web        |
+| Mar 2 - Mar 15 | finish development document and design the prompt for our chat system |
+| Mar 16 - Apr 1 | finish test document and continue to maintain our chat system |
 
